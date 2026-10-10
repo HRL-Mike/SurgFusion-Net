@@ -15,8 +15,10 @@
 </div>
 
 ## About RAH-skill and RARP-skill Datasets
-The RAH-skill Dataset consists of 37 videos of the vaginal vault closure phase from Robot-assisted Hysterectomy (RAH) cases collected at University College London Hospital and Yeovil Hospital under ethical approval and patient consent (IRAS ID: 309024). Each video corresponds to a single patient case. Videos were recorded at 30 Hz and stored in “.mp4” format. Each video was segmented into three phases: right angle securement, middle section closure, and left angle securement. Non-suturing frames were removed, and each phase was scored using the M-GEARS tool.
+The RAH-skill Dataset consists of 37 videos of the vaginal vault closure phase from Robot-assisted Hysterectomy (RAH) cases collected at University College London Hospital and Yeovil Hospital under ethical approval and patient consent (IRAS ID: 309024). Each video corresponds to a single patient case. Videos were recorded at 30 Hz and stored in “.mp4” format. Each video was segmented into three phases: right angle securement, middle section closure, and left angle securement. Non-suturing frames were removed, and each phase was scored using the [M-GEARS](https://pubmed.ncbi.nlm.nih.gov/39106003/) tool.
 All videos were blindly double-annotated by two trained surgeons with 90% or higher inter-rater agreement on pre-validated videos. Final scores represent the mean of the two raters, yielding 110 M-GEARS scores ranging from 14 to 30 across all phases, with strong inter-rater reliability (Spearman rho: $\rho$ = 0.756, 95\% CI [0.369, 0.908], p = 0.002).
+
+The RARP-skill dataset contains 33 videos, a subset of the open-source [SAR-RARP50](https://arxiv.org/abs/2401.00496) dataset, of dorsal venous complex ligation from RARP collected at University College Hospital (Westmoreland Street, London, UK).
 
 ## How to Download RARP-skill Dataset
 
