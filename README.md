@@ -14,6 +14,9 @@
 <img src='https://github.com/HRL-Mike/SurgFusion-Net/blob/main/assets/SFN-archi.png' width=750>
 </div>
 
+## About RAH-skill and RARP-skill Datasets
+The RAH-skill Dataset consists of 37 videos of the vaginal vault closure phase from Robot-assisted Hysterectomy (RAH) cases collected at University College London Hospital and Yeovil Hospital under ethical approval and patient consent (IRAS ID: 309024). Each video corresponds to a single patient case. Videos were recorded at 30 Hz and stored in “.mp4” format. Each video was segmented into three phases: right angle securement, middle section closure, and left angle securement. Non-suturing frames were removed, and each phase was scored using the M-GEARS tool.
+All videos were blindly double-annotated by two trained surgeons with 90% or higher inter-rater agreement on pre-validated videos. Final scores represent the mean of the two raters, yielding 110 M-GEARS scores ranging from 14 to 30 across all phases, with strong inter-rater reliability (Spearman rho: $\rho$ = 0.756, 95\% CI [0.369, 0.908], p = 0.002).
 
 ## How to Download RARP-skill Dataset
 
@@ -29,15 +32,13 @@ The implementation of PitVQA++ relies on resources from <a href="https://github.
 ## Citation
 If you use the data and code for your research, please cite our paper.
 ```bibtex
-@article{he2026pitvqa++,
-  title={PitVQA++: Vector Matrix-Low-Rank Adaptation for Open-Ended Visual Question Answering in Pituitary Surgery},
-  author={He, Runlong and Khan, Danyal Z. and Mazomenos, Evangelos B. and Marcus, Hani J. and Stoyanov, Danail and Clarkson, Matthew J. and Hoque, Mobarak I.},
+@article{he2026surgfusion,
+  title={SurgFusion-Net: Diversified Adaptive Multimodal Fusion Network for Surgical Skill Assessment},
+  author={He, Runlong and Tesfai, Freweini M. and Boal, Matthew W. E. and Sirajudeen, Nazir and Anastasiou, Dimitrios and Xu, Jialang and Hoque, Mobarak I. and Edwards, Philip J. and Kelly, John D. and Sridhar, Ashwin and Kadkhodamohammadi, Abdolrahim and Chandrasekaran, Dhivya and Clarkson, Matthew J. and Stoyanov, Danail and Francis, Nader and Mazomenos, Evangelos B.},
   journal={IEEE Transactions on Medical Imaging},
-  volume={45},
-  number={7},
-  pages={3626--3636},
   year={2026},
   publisher={IEEE},
-  doi={10.1109/TMI.2026.3681175}
+  doi={10.1109/TMI.2026.3722251},
+  note={Early Access}
 }
 ```
