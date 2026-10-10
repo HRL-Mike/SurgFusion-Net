@@ -20,16 +20,17 @@ The RAH-skill Dataset consists of 37 videos of the vaginal vault closure phase f
 The RARP-skill dataset contains 33 videos, a subset of the open-source [SAR-RARP50](https://arxiv.org/abs/2401.00496) dataset, of dorsal venous complex ligation from Robot-Assisted Radical Prostatectomy (RARP) collected at University College Hospital (Westmoreland Street, London, UK). Each video corresponds to a single patient case. Videos were recorded at 60 Hz and stored in “.avi” format. Based on video quality, 33 videos were selected for annotation. This yielded 33 M-GEARS scores ranging from 18 to 28.
 
 ## How to Download RAH-skill Dataset
+TODO
 
 ## How to Download RARP-skill Dataset
 Please download surgical videos from the [SAR-RARP50](https://rdr.ucl.ac.uk/projects/SAR-RARP50_Segmentation_of_surgical_instrumentation_and_Action_Recognition_on_Robot-Assisted_Radical_Prostatectomy_Challenge/191091) dataset, including both the training and test sets. You can find the M-GEARS skill annotations from 
 
 
 ## Training Command:
-
+TODO
 
 ## Acknowledgement
-The implementation of PitVQA++ relies on resources from <a href="https://github.com/salesforce/BLIP">BLIP</a>, <a href="https://github.com/huggingface/transformers">Huggingface Transformers</a>, <a href="https://github.com/rwightman/pytorch-image-models/tree/master/timm">timm</a> and our previous work [PitVQA](https://github.com/mobarakol/PitVQA). We thank the original authors for their open-sourcing.
+The implementation of SurgFusion-Net relies on resources from <a href="https://github.com/huggingface/transformers">Huggingface Transformers</a>, <a href="https://github.com/rwightman/pytorch-image-models/tree/master/timm">timm</a> and [MAQA](https://arxiv.org/abs/2402.09444). We thank the original authors for their open-sourcing.
 
 ## Citation
 If you use the data and code for your research, please cite our paper.
