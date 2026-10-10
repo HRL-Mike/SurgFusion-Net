@@ -9,9 +9,9 @@
 
 </div> 
 
-## PitVQA++ Network
+## SurgFusion-Net Architecture
 <div align='center'>
-<img src='https://github.com/HRL-Mike/PitVQA-Plus/blob/main/assets/model_archi.png' width=750>
+<img src='https://github.com/HRL-Mike/SurgFusion-Net/blob/main/assets/SFN-archi.png' width=750>
 </div>
 
 
