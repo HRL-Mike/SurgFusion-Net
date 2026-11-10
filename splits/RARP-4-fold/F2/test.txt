@@ -1,0 +1,8 @@
+video_01	21
+video_24	20
+video_26	25
+video_28	23
+video_29_1	24
+video_29_2	27
+video_43	23
+video_47	26
