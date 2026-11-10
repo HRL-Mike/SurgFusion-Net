@@ -20,10 +20,10 @@ The RAH-skill Dataset consists of 37 videos of the vaginal vault closure phase f
 The RARP-skill dataset contains 33 videos, a subset of the open-source [SAR-RARP50](https://arxiv.org/abs/2401.00496) dataset, of dorsal venous complex ligation from Robot-Assisted Radical Prostatectomy (RARP) collected at University College Hospital (Westmoreland Street, London, UK). Each video corresponds to a single patient case. Videos were recorded at 60 Hz and stored in “.avi” format. Based on video quality, 33 videos were selected for annotation. This yielded 33 M-GEARS scores ranging from 18 to 28.
 
 ## How to Download RAH-skill Dataset
-Please download surgical videos from the [RAH-40](https://drive.google.com/file/d/1jGPPTtMNSlKxIExL8o0MVoMstr9T5dxQ/view?usp=sharing) dataset. In labels folder, you can find [RAH-40-mGEARS.xlsx](https://github.com/HRL-Mike/SurgFusion-Net/blob/main/labels/RAH-40-mGEARS.xlsx).
+Please download surgical videos from the [RAH-40](https://drive.google.com/file/d/1jGPPTtMNSlKxIExL8o0MVoMstr9T5dxQ/view?usp=sharing) dataset (about 16.5 GB).The M-GEARS scores are provided in [RAH-40-MGEARS.xlsx](https://github.com/HRL-Mike/SurgFusion-Net/blob/main/labels/RAH-40-MGEARS.xlsx) under the labels folder.
 
 ## How to Download RARP-skill Dataset
-Please download surgical videos from the [SAR-RARP50](https://rdr.ucl.ac.uk/projects/SAR-RARP50_Segmentation_of_surgical_instrumentation_and_Action_Recognition_on_Robot-Assisted_Radical_Prostatectomy_Challenge/191091) dataset, including both the training and test sets. You can find the M-GEARS skill annotations from 
+Please download surgical videos from the [SAR-RARP50](https://rdr.ucl.ac.uk/projects/SAR-RARP50_Segmentation_of_surgical_instrumentation_and_Action_Recognition_on_Robot-Assisted_Radical_Prostatectomy_Challenge/191091) dataset, including both the training and test sets. The M-GEARS scores are provided in [RARP-33-MGEARS.xlsx](https://github.com/HRL-Mike/SurgFusion-Net/blob/main/labels/RARP-33-MGEARS.xlsx) under the labels folder.
 
 
 ## Training Command:
